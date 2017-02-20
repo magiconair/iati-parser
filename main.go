@@ -85,7 +85,7 @@ func main() {
 	for _, act := range d.Activities {
 		// skip other countries
 		cc := act.Country.Code
-		if !(cc == "GH" || cc == "ET" || cc == "") {
+		if !(cc == "GH" || cc == "ET" || cc == "BF" || cc == "NG" || cc == "TZ" || cc == "") {
 			continue
 		}
 
